@@ -20,7 +20,7 @@ except OSError as error:
 for i in tqdm (range(partition), desc="Téléchargement... "):
     filenames = str(seg)+'.ts'
     ### "+str(seg)+" ###
-    liens = "https://free3b.animedigitalnetwork.fr/1661835549620-0-648f6d38d415d8b1556a5a080b477647/video0_free_480p/sequence_"+str(seg)+".ts"
+    liens = "https://liensdexemple-segement"+str(seg)+"2484646-5984154.ts"
     full_path = path+filenames
     seg+=1
     #if seg == 1:
